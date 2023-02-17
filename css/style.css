@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root{
+    --cyan: #2ab2af;
+    --bright-yellow: #c0df4f;
+    --Grayish-Blue: #98a6bd;
+    --Light-Gray: #E6EFF5;
+    --bright-cyan: #4ABFBD;
+}
+
+html {
+    font-size: 62.5%;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    background: var(--Light-Gray);
+    padding: 3.2rem;
+}
+
+.firstCard h1 {
+    font-size: 2rem;
+    color: var(--cyan);
+    margin-bottom: 2.4rem;
+}
+
+.firstCard {
+    line-height: 2rem;
+    
+}
+
+.firstCard .first-p {
+    font-size: 1.5rem;
+    color: var(--bright-yellow);
+    margin-bottom: 1.6rem;
+}
+
+.firstCard .second-p {
+    font-size: 1.4rem;
+    color: var(--Grayish-Blue);
+}
+
+.firstCard section {
+    background: #fff;
+    padding: 2.4rem;
+    border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.secondCard .left {
+    background: var(--cyan);
+
+}
+
+.secondCard .left h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 1.8rem;
+}
+
+.secondCard section {
+    padding: 2.4rem;
+}
+
+.secondCard p {
+    font-size: 1.6rem;
+    color: #fff;
+
+}
+
+.secondCard .left p{
+    margin-bottom: 2.6rem;
+
+}
+
+.left-content {
+    display: flex;  
+    align-items: center;
+}
+
+.left-content .first-p {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.left-content .second-p {
+    font-size: 1.6rem;
+    color: #fff;
+    opacity: 0.5;
+    margin-left: 1.2rem;
+}
+
+.left-content .first-p, .left-content .second-p{
+    margin-bottom: 1.5rem;
+    
+}
+
+
+button {
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    color: #fff;
+    background: var(--bright-yellow);
+    width: 100%;
+    border-radius: 0.5rem;
+    border: none;
+    
+    
+}
+.secondCard .right {
+    background: var(--bright-cyan);
+    border-radius: 0 0 0.8rem 0.8rem;
+}
+
+.secondCard .right h2{
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 1.8rem;
+}
+
+.secondCard .right p {
+    font-size: 1.4rem;
+    color: #fff;
+    opacity: 0.75;
+    line-height: 2rem;
+}
+
+@media (min-width: 1024px){
+    .firstCard section, .secondCard section {
+        padding: 4rem;
+
+      }
+
+    .firstCard h1{
+        font-size: 2.4rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .firstCard .first-p, .firstCard .second-p {
+        font-size: 1.8rem;
+    }
+    .firstCard .second-p {
+        margin-bottom: 4rem;
+    }
+    .secondCard {
+        display: flex;
+    }
+    .secondCard .left {
+        width: 50%;
+        padding: 4rem;
+        border-radius: 0 0 0 0.8rem;
+
+    }
+    .left p {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+    }
+    .secondCard .left h2{
+        font-size: 1.8rem;
+        margin-bottom: 2.8rem;
+    }
+    .secondCard .right {
+        width: 50%;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0.8rem;
+    }
+    .secondCard h2 {
+        margin-top:  1.3rem;
+    }
+    .secondCard p {
+        line-height: 2rem;
+        font-size: 1.4rem;
+    }
+
+}
